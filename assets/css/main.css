@@ -106,4 +106,7 @@ input[type="date"], select {
     input[type="submit"] {
         width: 100%;
     }
+    img.logo {
+        height: 80px;
+    }
 }
