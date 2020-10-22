@@ -38,24 +38,24 @@ p.inv {
     font-weight: 800;
     font-size: 30px;
 }
-.flex, .drop1, .drop2, .last {
+.flex, .flex1, .drop1, .drop2, .last {
     display: flex;
     align-items: center;
     width: 100%;
     margin-bottom: 20px;
 }
-.left, .right, .desc {
+.left, .lefty, .righty, .right, .desc {
     display: flex;
     flex-direction: column;
 }
 .desc {
     margin-bottom: 20px;
 }
-.left {
+.left, .lefty {
     width: 47%;
     margin-right: 6%;
 }
-.right{
+.right, .righty{
     width: 47%;
 }
 input, textarea, select {
@@ -75,4 +75,25 @@ input[type="submit"]{
     padding: 10px 30px;
     margin-top: 20px;
     margin-bottom: 40px;
+}
+
+/* Media Query */
+@media all and (max-width: 680px){
+    .container {
+        width: 89%;
+        padding: 30px 20px;
+    }
+    .flex1 {
+        display: block;
+    }
+    .lefty, .righty {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+    .last {
+        display: block;
+    }
+    input[type="submit"] {
+        width: 100%;
+    }
 }
