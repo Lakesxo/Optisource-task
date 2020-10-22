@@ -82,7 +82,7 @@ input[type="submit"]{
     margin-top: 20px;
     margin-bottom: 40px;
 }
-select {
+input[type="date"], select {
     background-color: #ffffff;
 }
 
@@ -91,6 +91,7 @@ select {
     .container {
         width: 89%;
         padding: 30px 20px;
+        margin-top: 10%;
     }
     .flex1 {
         display: block;
