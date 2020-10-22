@@ -48,6 +48,12 @@ p.inv {
     display: flex;
     flex-direction: column;
 }
+.date {
+    display: flex;
+    flex-direction: column;
+    width: 47%;
+    margin-bottom: 20px;
+}
 .desc {
     margin-bottom: 20px;
 }
@@ -75,6 +81,9 @@ input[type="submit"]{
     padding: 10px 30px;
     margin-top: 20px;
     margin-bottom: 40px;
+}
+select {
+    background-color: #ffffff;
 }
 
 /* Media Query */
