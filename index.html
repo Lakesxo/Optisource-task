@@ -8,7 +8,91 @@
     <link rel="shortcut icon" href="./assets/img/Group 41.png" type="image/x-icon">
 </head>
 <body>
-    
+    <div class="cont">
+        <div class="container">
+            <header>
+                <p class="inv">Invoice</p>
+                <img src="./assets/img/Group 41.png" alt="logo">
+            </header>
+            <form>
+                <div class="flex">
+                    <div class="left">
+                        <label for="number">Invoice No :</label>
+                        <input type="text" name="number" id="number">
+                    </div>
+                    <div class="right">
+                        <label for="amount">Amount :</label>
+                        <input type="number" name="amount" id="amount">
+                    </div>
+                </div>
+                <div class="desc">
+                    <label for="desc">Description:</label>
+                    <textarea rows="4" name="desc" id="desc"></textarea>
+                </div>
+                <div class="flex">
+                    <div class="left">
+                        <label for="delivery">Delivery Date :</label>
+                        <input type="date" name="delivery" id="delivery">
+                    </div>
+                    <div class="right">
+                        <label for="settle">Settle Date :</label>
+                        <input type="date" name="settle" id="settle">
+                    </div>
+                </div>
+                <div class="drop1">
+                    <div class="left">
+                        <label for="vat">Invoice VAT:</label>
+                        <select name="vat" id="vat">
+                            <option value="volvo">Volvo</option>
+                            <option value="saab">Saab</option>
+                            <option value="opel">Opel</option>
+                            <option value="audi">Audi</option>
+                        </select>
+                    </div>
+                    <div class="right">
+                        <label for="currency">Currency :</label>
+                        <select name="currency" id="currency">
+                            <option value="euro">Euro (€)</option>
+                            <option value="pounds">Pound (£)</option>
+                            <option value="dollars">Dollar ($)</option>
+                            <option value="naira">Naira (₦)</option>
+                        </select>
+                    </div>
+                </div>
+                <div class="drop2">
+                    <div class="left">
+                        <label for="rate">Exchange Rate :</label>
+                        <select name="rate" id="rate">
+                            <option value="euro">Euro (€)</option>
+                            <option value="pounds">Pound (£)</option>
+                            <option value="dollars">Dollar ($)</option>
+                            <option value="naira">Naira (₦)</option>
+                        </select>
+                    </div>
+                    <div class="right">
+                        <label for="client">Client :</label>
+                        <select name="client" id="client">
+                            <option value="euro">Euro (€)</option>
+                            <option value="pounds">Pound (£)</option>
+                            <option value="dollars">Dollar ($)</option>
+                            <option value="naira">Naira (₦)</option>
+                        </select>
+                    </div>
+                </div>
+                <div class="last">
+                    <div class="left">
+                        <label for="order">Order Number :</label>
+                        <input type="number" name="order" id="order">
+                    </div>
+                    <div class="right">
+                        <label for="agent">Sales Agent :</label>
+                        <input type="text" name="agent" id="agent">
+                    </div>
+                </div>
+                <input type="submit" value="Save Invoice">
+            </form>
+        </div>
+    </div>
 
     <script src="./assets/js/index.js"></script>
 </body>
