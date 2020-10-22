@@ -21,7 +21,7 @@ body {
     margin-bottom: 15%;
     padding: 30px 50px;
     border-radius: 10px;
-    border-top: 12px solid #480403;
+    border-top: 6px solid #480403;
     border-bottom: 6px solid #480403;
     -webkit-box-shadow: 2px 6px 37px -10px rgba(0,0,0,0.75);
     -moz-box-shadow: 2px 6px 37px -10px rgba(0,0,0,0.75);
@@ -42,7 +42,7 @@ p.inv {
     display: flex;
     align-items: center;
     width: 100%;
-    margin-bottom: 20px;
+    margin-bottom: 30px;
 }
 .left, .lefty, .righty, .right, .desc {
     display: flex;
@@ -52,10 +52,10 @@ p.inv {
     display: flex;
     flex-direction: column;
     width: 47%;
-    margin-bottom: 20px;
+    margin-bottom: 30px;
 }
 .desc {
-    margin-bottom: 20px;
+    margin-bottom: 30px;
 }
 .left, .lefty {
     width: 47%;
